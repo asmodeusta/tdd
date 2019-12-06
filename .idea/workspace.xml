@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0d223c4-c04a-4236-b70d-3ecf09fe5a76" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
+  <component name="ProjectId" id="1UZMu3wgOUXJCKliKKfgbNyjcb7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0d223c4-c04a-4236-b70d-3ecf09fe5a76" name="Default Changelist" comment="" />
+      <created>1575559882229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575559882229</updated>
+      <workItem from="1575559883925" duration="12047000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="237" y="357" width="576" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575624595830">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="237" y="357" width="576" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1575624595830" />
+    <state x="264" y="468" width="523" height="168" key="ComposerInitDialogKey" timestamp="1575560091138">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="264" y="468" width="523" height="168" key="ComposerInitDialogKey/67.27.1853.1053@67.27.1853.1053" timestamp="1575560091138" />
+    <state x="776" y="310" width="447" height="484" key="FileChooserDialogImpl" timestamp="1575653644595">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="447" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1575653644595" />
+    <state x="332" y="366" width="386" height="373" key="NewPhpClassDialog" timestamp="1575653599159">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="332" y="366" width="386" height="373" key="NewPhpClassDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575653599159" />
+    <state x="326" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1575624564610">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="326" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575624564610" />
+    <state x="67" y="187" key="SettingsEditor" timestamp="1575560290496">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="67" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1575560290496" />
+    <state x="176" y="288" width="709" height="528" key="find.popup" timestamp="1575631182199">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="176" y="288" width="709" height="528" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1575631182199" />
+  </component>
+</project>

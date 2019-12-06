@@ -1,0 +1,73 @@
+#!/usr/bin/php7.2
+<?php
+
+class HostsManager
+{
+
+    private $file;
+
+    private $hosts = [];
+
+    public function __construct($file)
+    {
+        if (file_exists($file)) {
+            $this->file = $file;
+            $this->parseHostsFile();
+        } else {
+            throw new Error('Hosts file does not exist');
+        }
+    }
+
+    private function parseHostsFile()
+    {
+        $hostsRows = file($this->file);
+        foreach ($hostsRows as $row) {
+            $row = trim($row);
+            if (empty($row)) {
+                continue;
+            }
+            $hostArr = (explode(' ', $row));
+            $ip = array_shift($hostArr);
+            if (!array_key_exists($ip, $this->hosts)) {
+                $this->hosts[$ip] = [];
+            }
+            foreach ($hostArr as $hostName) {
+                if (!in_array($hostName, $this->hosts[$ip])) {
+                    $hosts[$ip][] = $hostName;
+                }
+            }
+        }
+    }
+
+    public function addHost($ip, $host)
+    {
+        if (!array_key_exists($ip, $this->hosts)) {
+            $this->hosts[$ip] = [];
+        }
+        if (!in_array($host, $this->hosts)) {
+            $this->hosts[$ip][] = $host;
+        }
+    }
+
+    public function save()
+    {
+        $hostsRows = [];
+        ksort($this->hosts);
+        foreach ($this->hosts as $ip => $hosts) {
+            sort($hosts);
+            foreach ($hosts as $host) {
+                $hostsRows[] = $ip . ' ' . $host;
+            }
+        }
+        file_put_contents($this->file, implode(PHP_EOL, $hostsRows));
+    }
+
+}
+
+$hostsFile = '/etc/hosts';
+try {
+    $manager = new HostsManager($hostsFile);
+} catch (Error $error) {
+    die($error->getMessage());
+}
+$manager->save();
